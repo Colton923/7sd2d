@@ -1,0 +1,17 @@
+# Ignore the large local_mods directory
+/local_mods/
+
+# Ignore the server files downloaded by LinuxGSM
+/7d2d-server/
+/serverfiles/
+/log/
+/tmp/
+
+# Ignore other local files
+/backups/
+*.log
+install-log.txt
+steamcmd-log.txt
+commit_message.txt
+run.bat
+sdtdserver.xml.bak

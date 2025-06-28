@@ -1,0 +1,14 @@
+# Ignore Docker specific files
+Dockerfile
+.dockerignore
+
+# Ignore directories that will be created inside the container
+7d2d-server/
+steamcmd/
+
+# Ignore log files
+*.log
+install-log.txt
+steamcmd-log.txt
+
+# Ignore existing user scripts 
