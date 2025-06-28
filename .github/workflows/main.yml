@@ -3,7 +3,7 @@ name: Build and Push 7D2D Server
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build-and-push:
