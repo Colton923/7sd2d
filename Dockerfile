@@ -43,11 +43,7 @@ RUN wget -O linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linu
 # Install the 7D2D server using LinuxGSM
 RUN ./sdtdserver auto-install
 
-# --- MOD AND MAP INSTALLATION ---
-# Copy mods, worlds, and prefabs
-COPY --chown=sdtdserver:sdtdserver local_mods/Mods /home/sdtdserver/serverfiles/Mods
-COPY --chown=sdtdserver:sdtdserver local_mods/Worlds /home/sdtdserver/serverfiles/Data/Worlds
-COPY --chown=sdtdserver:sdtdserver local_mods/Prefabs /home/sdtdserver/serverfiles/Data/Prefabs
+
 
 # Copy server configuration
 COPY --chown=sdtdserver:sdtdserver sdtdserver.xml /home/sdtdserver/serverfiles/sdtdserver.xml
