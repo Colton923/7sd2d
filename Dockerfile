@@ -45,6 +45,11 @@ RUN ./sdtdserver auto-install
 
 
 
+# Copy mods, worlds, and prefabs
+COPY --chown=sdtdserver:sdtdserver local_mods/Mods /home/sdtdserver/serverfiles/Mods
+COPY --chown=sdtdserver:sdtdserver local_mods/Worlds /home/sdtdserver/serverfiles/Data/Worlds
+COPY --chown=sdtdserver:sdtdserver local_mods/Prefabs /home/sdtdserver/serverfiles/Data/Prefabs
+
 # Copy server configuration
 COPY --chown=sdtdserver:sdtdserver sdtdserver.xml /home/sdtdserver/serverfiles/sdtdserver.xml
 
