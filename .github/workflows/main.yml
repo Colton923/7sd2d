@@ -18,7 +18,8 @@ jobs:
           credentials_json: '${{ secrets.GCP_SA_KEY }}'
 
       - name: Download mods from GCS
-        run: |-
+        run: |
+          mkdir -p ./local_mods
           gcloud storage cp gs://gcloud-7d2d-mods-bucket/* ./local_mods --recursive
 
       - name: Set up Docker Buildx
