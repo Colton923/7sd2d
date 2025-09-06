@@ -1,0 +1,4 @@
+C:\Users\admin\projects\7d2d\rpg-overhaul-csharp\obj\Debug\RPGOverhaul.csproj.AssemblyReference.cache
+C:\Users\admin\projects\7d2d\rpg-overhaul-csharp\obj\Debug\RPGOverhaul.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\projects\7d2d\rpg-overhaul-csharp\obj\Debug\RPGOverhaul.csproj.CoreCompileInputs.cache
+C:\Users\admin\projects\7d2d\rpg-overhaul-csharp\obj\Debug\RPGOverhaul.sourcelink.json

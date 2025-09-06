@@ -1,0 +1,137 @@
+{
+  "weapon_rarity_scaling": {
+    "tier_1": {
+      "Common": 90,
+      "Uncommon": 10,
+      "drop_chance": 5,
+      "description": "Early game - mostly common weapons"
+    },
+    "tier_2": {
+      "Common": 70,
+      "Uncommon": 28,
+      "Rare": 2,
+      "drop_chance": 12,
+      "description": "Mid-early game - uncommon weapons start appearing"
+    },
+    "tier_3": {
+      "Common": 45,
+      "Uncommon": 45,
+      "Rare": 10,
+      "drop_chance": 25,
+      "description": "Mid game - balanced common/uncommon, rare possible"
+    },
+    "tier_4": {
+      "Common": 25,
+      "Uncommon": 45,
+      "Rare": 25,
+      "Epic": 5,
+      "drop_chance": 40,
+      "description": "Late mid game - rare weapons common, epic possible"
+    },
+    "tier_5": {
+      "Common": 10,
+      "Uncommon": 25,
+      "Rare": 40,
+      "Epic": 22,
+      "Legendary": 3,
+      "drop_chance": 65,
+      "description": "Late game bosses - high chance of rare+ weapons"
+    },
+    "tier_6": {
+      "Common": 5,
+      "Uncommon": 15,
+      "Rare": 30,
+      "Epic": 35,
+      "Legendary": 13,
+      "Pearlescent": 2,
+      "drop_chance": 85,
+      "description": "Endgame boss - guaranteed rare+ with legendary chance"
+    }
+  },
+  "equipment_by_tier": {
+    "tier_1": {
+      "armor_pieces": ["clothShirt", "clothPants", "clothGloves"],
+      "accessories": [],
+      "weapons": ["meleeStoneAxe", "meleeWoodenClub"],
+      "quality_range": [1, 2]
+    },
+    "tier_2": {
+      "armor_pieces": ["leatherJacket", "leatherPants", "leatherGloves", "armorScrapHelmet"],
+      "accessories": ["backpack"],
+      "weapons": ["meleeIronHatchet", "gunHandgunT1Pistol"],
+      "quality_range": [1, 3]
+    },
+    "tier_3": {
+      "armor_pieces": ["armorIronHelmet", "armorIronChestArmor", "armorIronGloves", "armorIronLegs"],
+      "accessories": ["backpack", "toolBelt"],
+      "weapons": ["gunRifleT1HuntingRifle", "gunShotgunT1Shotgun"],
+      "quality_range": [2, 4]
+    },
+    "tier_4": {
+      "armor_pieces": ["armorMilitaryHelmet", "armorMilitaryArmor", "armorMilitaryGloves", "armorMilitaryBoots"],
+      "accessories": ["backpack", "toolBelt", "firstAidBandage"],
+      "weapons": ["gunRifleT2AssaultRifle", "gunShotgunT2TacticalShotgun"],
+      "quality_range": [3, 5]
+    },
+    "tier_5": {
+      "armor_pieces": ["armorSteelHelmet", "armorSteelChestArmor", "armorSteelGloves", "armorSteelBoots"],
+      "accessories": ["backpack", "toolBelt", "firstAidKit", "nightVisionGoggles"],
+      "weapons": ["gunRifleT3SniperRifle", "gunHandgunT3Magnum"],
+      "quality_range": [4, 6]
+    },
+    "tier_6": {
+      "armor_pieces": ["armorTacticalHelmet", "armorTacticalVest", "armorTacticalGloves", "armorTacticalBoots"],
+      "accessories": ["backpack", "toolBelt", "firstAidKit", "nightVisionGoggles", "modScope"],
+      "weapons": ["gunRifleT4AdvancedSniper", "gunHandgunT4AutoMagnum"],
+      "quality_range": [5, 6]
+    }
+  },
+  "special_drops_by_biome": {
+    "swamp": {
+      "common": ["plantFiber", "murkyWater", "taintedMeat"],
+      "uncommon": ["swampRoot", "poisonExtract", "bogWood"],
+      "rare": ["witchsBrew", "cursedBone", "swampGem"]
+    },
+    "desert": {
+      "common": ["sand", "cactusFlower", "dryBone"],
+      "uncommon": ["desertGlass", "sunCrystal", "scorpionStinger"],
+      "rare": ["oasisWater", "mirageStone", "pharaohsGold"]
+    },
+    "tundra": {
+      "common": ["ice", "frostberry", "wolfPelt"],
+      "uncommon": ["frostCrystal", "bearFur", "iceWine"],
+      "rare": ["eternalIce", "northernLights", "vikingTreasure"]
+    },
+    "urban": {
+      "common": ["scrapMetal", "brokenGlass", "oldNewspaper"],
+      "uncommon": ["electricParts", "computerChip", "chemicalSupplies"],
+      "rare": ["militaryIntel", "experimentalTech", "corporateSecrets"]
+    },
+    "forest": {
+      "common": ["wood", "berries", "animalFat"],
+      "uncommon": ["rareHerbs", "truffle", "ancientSeed"],
+      "rare": ["elfenWood", "druidStone", "forestSpirit"]
+    },
+    "volcanic": {
+      "common": ["obsidian", "sulfur", "volcanicRock"],
+      "uncommon": ["lavaGlass", "fireOpal", "thermalVent"],
+      "rare": ["dragonScale", "moltenGold", "phoenixFeather"]
+    }
+  },
+  "economic_scaling": {
+    "tier_1": 1.0,
+    "tier_2": 1.5,
+    "tier_3": 2.5,
+    "tier_4": 4.0,
+    "tier_5": 7.0,
+    "tier_6": 12.0
+  },
+  "loot_quantity_scaling": {
+    "tier_1": {"min": 1, "max": 2},
+    "tier_2": {"min": 1, "max": 3},
+    "tier_3": {"min": 2, "max": 4},
+    "tier_4": {"min": 2, "max": 5},
+    "tier_5": {"min": 3, "max": 6},
+    "tier_6": {"min": 4, "max": 8}
+  }
+}

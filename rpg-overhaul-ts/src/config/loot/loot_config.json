@@ -1,0 +1,175 @@
+{
+  "loot_categories": {
+    "survival_basic": {
+      "description": "Basic survival tools and supplies",
+      "spawn_locations": ["houses", "campsites", "cabins", "stores"],
+      "gamestage_min": 1,
+      "gamestage_max": 50,
+      "base_probability": 0.15
+    },
+    "survival_advanced": {
+      "description": "Advanced survival equipment",
+      "spawn_locations": ["military", "hospitals", "police", "fire_stations"],
+      "gamestage_min": 25,
+      "gamestage_max": 150,
+      "base_probability": 0.08
+    },
+    "medical_supplies": {
+      "description": "Medical equipment and treatments",
+      "spawn_locations": ["hospitals", "pharmacies", "ambulances", "houses"],
+      "gamestage_min": 1,
+      "gamestage_max": 100,
+      "base_probability": 0.12
+    },
+    "electronics": {
+      "description": "Electronic devices and components",
+      "spawn_locations": ["stores", "offices", "garages", "industrial"],
+      "gamestage_min": 15,
+      "gamestage_max": 200,
+      "base_probability": 0.10
+    },
+    "tools_basic": {
+      "description": "Basic tools and equipment",
+      "spawn_locations": ["garages", "stores", "houses", "sheds"],
+      "gamestage_min": 1,
+      "gamestage_max": 75,
+      "base_probability": 0.18
+    },
+    "tools_advanced": {
+      "description": "Advanced and specialized tools",
+      "spawn_locations": ["industrial", "military", "garages", "construction"],
+      "gamestage_min": 50,
+      "gamestage_max": 300,
+      "base_probability": 0.06
+    },
+    "weapons_civilian": {
+      "description": "Common civilian weapons",
+      "spawn_locations": ["houses", "stores", "police", "sheds"],
+      "gamestage_min": 1,
+      "gamestage_max": 100,
+      "base_probability": 0.12
+    },
+    "weapons_military": {
+      "description": "Military-grade weapons",
+      "spawn_locations": ["military", "police", "supply_drops"],
+      "gamestage_min": 75,
+      "gamestage_max": 500,
+      "base_probability": 0.04
+    }
+  },
+  
+  "spawn_locations": {
+    "houses": {
+      "containers": ["medicine_cabinet", "kitchen_cupboard", "bedroom_dresser", "closet"],
+      "base_loot_stage": 1,
+      "loot_abundance": 1.0
+    },
+    "stores": {
+      "containers": ["store_shelf", "cash_register", "storage_room", "display_case"],
+      "base_loot_stage": 5,
+      "loot_abundance": 1.2
+    },
+    "military": {
+      "containers": ["mil_weapon_case", "mil_supply_crate", "mil_desk", "mil_locker"],
+      "base_loot_stage": 50,
+      "loot_abundance": 0.8
+    },
+    "hospitals": {
+      "containers": ["medicine_cabinet", "hospital_supplies", "office_desk", "storage_closet"],
+      "base_loot_stage": 20,
+      "loot_abundance": 1.1
+    },
+    "industrial": {
+      "containers": ["tool_chest", "supply_crate", "workbench", "storage_room"],
+      "base_loot_stage": 30,
+      "loot_abundance": 0.9
+    }
+  },
+  
+  "rarity_multipliers": {
+    "Common": 1.0,
+    "Uncommon": 0.65,
+    "Rare": 0.35,
+    "Epic": 0.15,
+    "Legendary": 0.05,
+    "Pearlescent": 0.015
+  },
+  
+  "progression_scaling": {
+    "early_game": {
+      "gamestage_range": [1, 25],
+      "quality_bias": [-1, 0],
+      "rarity_penalty": 0.5
+    },
+    "mid_game": {
+      "gamestage_range": [26, 100],
+      "quality_bias": [0, 1],
+      "rarity_penalty": 0.8
+    },
+    "late_game": {
+      "gamestage_range": [101, 300],
+      "quality_bias": [1, 2],
+      "rarity_penalty": 1.0
+    },
+    "end_game": {
+      "gamestage_range": [301, 1000],
+      "quality_bias": [2, 3],
+      "rarity_penalty": 1.2
+    }
+  },
+  
+  "zombie_drops": {
+    "tier_1": {
+      "difficulty_tiers": [1, 2],
+      "drop_categories": ["survival_basic", "medical_supplies"],
+      "drop_chance": 0.15,
+      "max_items": 2,
+      "special_drops": {
+        "rlZombieTissue": 0.3,
+        "rlZombieBlood": 0.2
+      }
+    },
+    "tier_2": {
+      "difficulty_tiers": [3, 4],
+      "drop_categories": ["survival_advanced", "tools_basic", "weapons_civilian"],
+      "drop_chance": 0.25,
+      "max_items": 3,
+      "special_drops": {
+        "rlZombieTissue": 0.5,
+        "rlZombieBlood": 0.4,
+        "rlInfectedSample": 0.15
+      }
+    },
+    "tier_3": {
+      "difficulty_tiers": [5, 6],
+      "drop_categories": ["weapons_military", "tools_advanced", "electronics"],
+      "drop_chance": 0.4,
+      "max_items": 4,
+      "special_drops": {
+        "rlZombieTissue": 0.7,
+        "rlZombieBlood": 0.6,
+        "rlInfectedSample": 0.3,
+        "rlViralStrain": 0.08,
+        "rlAlphaEssence": 0.02
+      }
+    }
+  },
+  
+  "special_events": {
+    "supply_drops": {
+      "guaranteed_categories": ["weapons_military", "medical_supplies", "tools_advanced"],
+      "bonus_multiplier": 2.0,
+      "min_gamestage": 25
+    },
+    "trader_quests": {
+      "reward_categories": ["tools_advanced", "weapons_civilian", "electronics"],
+      "bonus_multiplier": 1.5,
+      "progression_locked": true
+    },
+    "dungeon_loot": {
+      "guaranteed_categories": ["weapons_military", "survival_advanced"],
+      "bonus_multiplier": 3.0,
+      "min_gamestage": 50
+    }
+  }
+}

@@ -1,0 +1,13 @@
+C:\Users\admin\projects\7d2d\rpg-overhaul-csharp\obj\Release\RPGOverhaulMinimal.csproj.AssemblyReference.cache
+C:\Users\admin\projects\7d2d\rpg-overhaul-csharp\obj\Release\RPGOverhaulMinimal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\projects\7d2d\rpg-overhaul-csharp\obj\Release\RPGOverhaulMinimal.csproj.CoreCompileInputs.cache
+C:\Users\admin\projects\7d2d\rpg-overhaul-csharp\obj\Release\RPGOverhaulMinimal.sourcelink.json
+C:\Users\admin\projects\7d2d\rpg-overhaul-csharp\bin\RPGOverhaulMinimal.dll
+C:\Users\admin\projects\7d2d\rpg-overhaul-csharp\bin\RPGOverhaulMinimal.pdb
+C:\Users\admin\projects\7d2d\rpg-overhaul-csharp\bin\0Harmony.dll
+C:\Users\admin\projects\7d2d\rpg-overhaul-csharp\bin\Assembly-CSharp.dll
+C:\Users\admin\projects\7d2d\rpg-overhaul-csharp\bin\UnityEngine.CoreModule.dll
+C:\Users\admin\projects\7d2d\rpg-overhaul-csharp\bin\UnityEngine.dll
+C:\Users\admin\projects\7d2d\rpg-overhaul-csharp\obj\Release\RPGOverh.8C00FCEB.Up2Date
+C:\Users\admin\projects\7d2d\rpg-overhaul-csharp\obj\Release\RPGOverhaulMinimal.dll
+C:\Users\admin\projects\7d2d\rpg-overhaul-csharp\obj\Release\RPGOverhaulMinimal.pdb

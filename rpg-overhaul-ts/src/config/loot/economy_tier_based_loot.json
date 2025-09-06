@@ -1,0 +1,137 @@
+{
+  "weapon_rarity_scaling": {
+    "tier_1": {
+      "Common": 70,
+      "Uncommon": 25,
+      "Rare": 4,
+      "Epic": 0.9,
+      "Legendary": 0.1,
+      "drop_chance": 0.15,
+      "description": "Basic tier weapons with mostly common rarities"
+    },
+    "tier_2": {
+      "Common": 50,
+      "Uncommon": 35,
+      "Rare": 12,
+      "Epic": 2.5,
+      "Legendary": 0.5,
+      "drop_chance": 0.20,
+      "description": "Improved tier with better rarity distribution"
+    },
+    "tier_3": {
+      "Common": 30,
+      "Uncommon": 40,
+      "Rare": 22,
+      "Epic": 7,
+      "Legendary": 1,
+      "drop_chance": 0.18,
+      "description": "Mid-tier weapons with good rare chances"
+    },
+    "tier_4": {
+      "Common": 15,
+      "Uncommon": 35,
+      "Rare": 35,
+      "Epic": 13,
+      "Legendary": 2,
+      "drop_chance": 0.15,
+      "description": "High-tier weapons with excellent rarity"
+    },
+    "tier_5": {
+      "Common": 5,
+      "Uncommon": 20,
+      "Rare": 40,
+      "Epic": 30,
+      "Legendary": 5,
+      "drop_chance": 0.10,
+      "description": "End-game weapons with high epic/legendary rates"
+    }
+  },
+  "equipment_by_tier": {
+    "tier_1": {
+      "armor_pieces": ["cloth_armor", "padded_armor", "scrap_armor"],
+      "accessories": ["bandana", "goggles", "shades"],
+      "weapons": ["wooden_club", "stone_axe", "primitive_bow"],
+      "quality_range": [1, 100]
+    },
+    "tier_2": {
+      "armor_pieces": ["leather_armor", "iron_armor", "military_vest"],
+      "accessories": ["tactical_goggles", "cigar", "lucky_goggles"],
+      "weapons": ["iron_club", "hunting_knife", "pistol"],
+      "quality_range": [50, 200]
+    },
+    "tier_3": {
+      "armor_pieces": ["military_armor", "swat_armor", "hazmat_suit"],
+      "accessories": ["night_vision_goggles", "college_jacket", "skull_cap"],
+      "weapons": ["baseball_bat", "hunting_rifle", "pump_shotgun"],
+      "quality_range": [100, 300]
+    },
+    "tier_4": {
+      "armor_pieces": ["steel_armor", "composite_armor", "power_armor_light"],
+      "accessories": ["ballistic_goggles", "press_boy_cap", "mining_helmet"],
+      "weapons": ["steel_club", "tactical_rifle", "auto_shotgun"],
+      "quality_range": [200, 400]
+    },
+    "tier_5": {
+      "armor_pieces": ["power_armor", "nano_armor", "legendary_armor"],
+      "accessories": ["legendary_goggles", "blessed_necklace", "champion_belt"],
+      "weapons": ["plasma_baton", "gauss_rifle", "rocket_launcher"],
+      "quality_range": [300, 600]
+    }
+  },
+  "special_drops_by_biome": {
+    "forest": {
+      "common": ["wood", "plant_fiber", "feathers"],
+      "uncommon": ["honey", "eggs", "leather"],
+      "rare": ["antibiotics", "beaker", "acid"]
+    },
+    "desert": {
+      "common": ["sand", "yucca_fruit", "aloe_cream"],
+      "uncommon": ["oil_shale", "brass", "lead"],
+      "rare": ["military_fiber", "steel", "springs"]
+    },
+    "snow": {
+      "common": ["snowball", "blueberries", "coffee_beans"],
+      "uncommon": ["coal", "potassium_nitrate", "antibiotics"],
+      "rare": ["steel_polish", "military_armor_parts", "crucible"]
+    },
+    "wasteland": {
+      "common": ["rotting_flesh", "bones", "acid"],
+      "uncommon": ["military_fiber", "hazmat_suit_parts", "gas_can"],
+      "rare": ["uranium", "plutonium", "legendary_parts"]
+    },
+    "burnt_forest": {
+      "common": ["coal", "burnt_wood", "ash"],
+      "uncommon": ["forged_iron", "mechanical_parts", "duct_tape"],
+      "rare": ["forged_steel", "solar_cell", "battery_bank"]
+    }
+  },
+  "economic_scaling": {
+    "tier_1": 1.0,
+    "tier_2": 2.5,
+    "tier_3": 5.0,
+    "tier_4": 10.0,
+    "tier_5": 25.0
+  },
+  "loot_quantity_scaling": {
+    "tier_1": {
+      "min": 1,
+      "max": 3
+    },
+    "tier_2": {
+      "min": 2,
+      "max": 5
+    },
+    "tier_3": {
+      "min": 3,
+      "max": 7
+    },
+    "tier_4": {
+      "min": 4,
+      "max": 10
+    },
+    "tier_5": {
+      "min": 5,
+      "max": 15
+    }
+  }
+}

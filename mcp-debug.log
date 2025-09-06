@@ -1,0 +1,66 @@
+[2025-09-06T03:53:12.343Z] Starting FileScopeMCP server initialization
+[2025-09-06T03:53:12.345Z] Initial working directory: C:\Users\admin\projects\7d2d
+[2025-09-06T03:53:12.345Z] Command line args: C:\Program Files\nodejs\node.exe,C:\Users\admin\FileScopeMCP\dist\mcp-server.js
+[2025-09-06T03:53:12.346Z] ========== CONFIG DEBUGGING ==========
+[2025-09-06T03:53:12.346Z] Loaded config: {
+  "baseDirectory": "",
+  "excludePatterns": [],
+  "fileWatching": {
+    "enabled": false,
+    "debounceMs": 300,
+    "ignoreDotFiles": true,
+    "autoRebuildTree": true,
+    "maxWatchedDirectories": 1000,
+    "watchForNewFiles": true,
+    "watchForDeleted": true,
+    "watchForChanged": true
+  },
+  "version": "1.0.0"
+}
+[2025-09-06T03:53:12.347Z] Exclude patterns count: 0
+[2025-09-06T03:53:12.347Z] =====================================
+[2025-09-06T03:53:12.347Z] Error: baseDirectory must be set in either config.json or via --base-dir parameter
+[2025-09-06T04:24:27.239Z] Starting FileScopeMCP server initialization
+[2025-09-06T04:24:27.241Z] Initial working directory: C:\Users\admin\projects\7d2d
+[2025-09-06T04:24:27.242Z] Command line args: C:\Program Files\nodejs\node.exe,C:\Users\admin\FileScopeMCP\dist\mcp-server.js
+[2025-09-06T04:24:27.242Z] ========== CONFIG DEBUGGING ==========
+[2025-09-06T04:24:27.243Z] Loaded config: {
+  "baseDirectory": "",
+  "excludePatterns": [],
+  "fileWatching": {
+    "enabled": false,
+    "debounceMs": 300,
+    "ignoreDotFiles": true,
+    "autoRebuildTree": true,
+    "maxWatchedDirectories": 1000,
+    "watchForNewFiles": true,
+    "watchForDeleted": true,
+    "watchForChanged": true
+  },
+  "version": "1.0.0"
+}
+[2025-09-06T04:24:27.243Z] Exclude patterns count: 0
+[2025-09-06T04:24:27.243Z] =====================================
+[2025-09-06T04:24:27.243Z] Error: baseDirectory must be set in either config.json or via --base-dir parameter
+[2025-09-06T04:45:54.408Z] Starting FileScopeMCP server initialization
+[2025-09-06T04:45:54.410Z] Initial working directory: C:\Users\admin\projects\7d2d
+[2025-09-06T04:45:54.411Z] Command line args: C:\Program Files\nodejs\node.exe,C:\Users\admin\FileScopeMCP\dist\mcp-server.js
+[2025-09-06T04:45:54.411Z] ========== CONFIG DEBUGGING ==========
+[2025-09-06T04:45:54.412Z] Loaded config: {
+  "baseDirectory": "",
+  "excludePatterns": [],
+  "fileWatching": {
+    "enabled": false,
+    "debounceMs": 300,
+    "ignoreDotFiles": true,
+    "autoRebuildTree": true,
+    "maxWatchedDirectories": 1000,
+    "watchForNewFiles": true,
+    "watchForDeleted": true,
+    "watchForChanged": true
+  },
+  "version": "1.0.0"
+}
+[2025-09-06T04:45:54.412Z] Exclude patterns count: 0
+[2025-09-06T04:45:54.412Z] =====================================
+[2025-09-06T04:45:54.412Z] Error: baseDirectory must be set in either config.json or via --base-dir parameter

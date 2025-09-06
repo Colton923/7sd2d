@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KxHDmAeOHwcXEVGRflR2nE5lyXpAP3m4jq/RMeS9DXVIv8xGDVtVT04veoSTYad+0C/ZdDAWP7ffunRSaR9aOQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin\\projects\\7d2d\\rpg-overhaul-csharp\\RPGOverhaulMinimal.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\lib.harmony\\2.2.2\\lib.harmony.2.2.2.nupkg.sha512"
+  ],
+  "logs": []
+}

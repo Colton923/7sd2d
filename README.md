@@ -1,6 +1,0 @@
-# 7D2D Docker Server
-
-This repository contains the necessary files to build a Docker image for a 7 Days to Die dedicated server.
-
-## Workflow Trigger
-This is a comment to trigger the GitHub Actions workflow.
